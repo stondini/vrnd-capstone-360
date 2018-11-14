@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 79
+  controlID: 80
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 80
+  controlID: 81
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 81
+  controlID: 82
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -788,9 +788,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 34330000
     m_LastClickedID: 0
-    m_ExpandedIDs: dabcffff98bdffff4abfffffe4fbffff00000000
+    m_ExpandedIDs: 04b9feffbab9feff6abbfeffdefbffff000000003e32000068320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -845,9 +845,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.041074038, y: 7.2388415, z: -166.54361}
+    m_Target: {x: 0.22103204, y: 8.71779, z: -166.01198}
     speed: 2
-    m_Value: {x: -0.041074038, y: 7.2388415, z: -166.54361}
+    m_Value: {x: 0.22103204, y: 8.71779, z: -166.01198}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -875,13 +875,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.30581942, y: 0.0077090887, z: -0.002476363, w: -0.9520552}
+    m_Target: {x: -0.494178, y: 0.07984229, z: -0.045641802, w: -0.86448395}
     speed: 2
-    m_Value: {x: -0.30581945, y: 0.0077090887, z: -0.002476363, w: -0.9520552}
+    m_Value: {x: -0.4941774, y: 0.079842195, z: -0.045641746, w: -0.86448294}
   m_Size:
-    m_Target: 327.5171
+    m_Target: 359.42706
     speed: 2
-    m_Value: 327.5171
+    m_Value: 359.42706
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -913,9 +913,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 279
+    x: 271
     y: 94
-    width: 1107
+    width: 1022
     height: 663
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
@@ -928,8 +928,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -553.5
-    m_HBaseRangeMax: 553.5
+    m_HBaseRangeMin: -511
+    m_HBaseRangeMax: 511
     m_VBaseRangeMin: -323
     m_VBaseRangeMax: 323
     m_HAllowExceedBaseRangeMin: 1
@@ -949,25 +949,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 1107
+      width: 1022
       height: 646
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 553.5, y: 323}
+    m_Translation: {x: 511, y: 323}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -553.5
+      x: -511
       y: -323
-      width: 1107
+      width: 1022
       height: 646
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 2214, y: 1326}
+  m_LastWindowPixelSize: {x: 2044, y: 1326}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -1034,20 +1034,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Externals/GoogleVR/Legacy/Scripts/Audio
+    - Assets/Sounds
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Externals/GoogleVR/Legacy/Scripts/Audio
+  - Assets/Sounds
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/sto/Courses/UdacityVR/vrnd-capstone-360/Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 78.00049}
-    m_SelectedIDs: c82b0000
-    m_LastClickedID: 11208
-    m_ExpandedIDs: 000000004a2b00006e2b00002c2d0000462d0000c62d0000c82d0000a02f0000ec2f000096300000ba300000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 02330000
+    m_LastClickedID: 13058
+    m_ExpandedIDs: 000000002c2b0000682b0000202d00003a2d0000482d0000b62d0000b82d0000d82d0000ca2f0000dc2f000084300000a83000001e310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1075,7 +1075,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006e2b0000462d0000a02f0000ba300000
+    m_ExpandedIDs: 000000002c2b0000682b0000202d00003a2d0000b62d0000b82d0000902f0000dc2f000084300000a8300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
