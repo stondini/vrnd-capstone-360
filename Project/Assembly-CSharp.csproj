@@ -78,11 +78,6 @@
     <Compile Include="Assets\Externals\GoogleVR\Demos\Scripts\VideoDemo\ToggleAction.cs" />
     <Compile Include="Assets\Externals\GoogleVR\Demos\Scripts\VideoDemo\VideoControlsManager.cs" />
     <Compile Include="Assets\Externals\GoogleVR\Demos\Scripts\VideoDemo\VideoPlayerReference.cs" />
-    <Compile Include="Assets\Externals\GoogleVR\Legacy\Scripts\Audio\GvrAudio.cs" />
-    <Compile Include="Assets\Externals\GoogleVR\Legacy\Scripts\Audio\GvrAudioListener.cs" />
-    <Compile Include="Assets\Externals\GoogleVR\Legacy\Scripts\Audio\GvrAudioRoom.cs" />
-    <Compile Include="Assets\Externals\GoogleVR\Legacy\Scripts\Audio\GvrAudioSoundfield.cs" />
-    <Compile Include="Assets\Externals\GoogleVR\Legacy\Scripts\Audio\GvrAudioSource.cs" />
     <Compile Include="Assets\Externals\GoogleVR\Legacy\Scripts\GvrController.cs" />
     <Compile Include="Assets\Externals\GoogleVR\Legacy\Scripts\GvrControllerVisualManager.cs" />
     <Compile Include="Assets\Externals\GoogleVR\Legacy\Scripts\GvrPointerManager.cs" />

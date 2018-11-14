@@ -72,10 +72,6 @@
     <Compile Include="Assets\Externals\GoogleVR\Editor\GvrEditorEmulatorEditor.cs" />
     <Compile Include="Assets\Externals\GoogleVR\Editor\GvrEditorMenu.cs" />
     <Compile Include="Assets\Externals\GoogleVR\Editor\GvrEditorSettings.cs" />
-    <Compile Include="Assets\Externals\GoogleVR\Legacy\Editor\Audio\GvrAudioListenerEditor.cs" />
-    <Compile Include="Assets\Externals\GoogleVR\Legacy\Editor\Audio\GvrAudioRoomEditor.cs" />
-    <Compile Include="Assets\Externals\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
-    <Compile Include="Assets\Externals\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
     <Compile Include="Assets\Externals\LightningBolt\Editor\LightningBoltEditor.cs" />
     <Compile Include="Assets\Externals\ResonanceAudio\Editor\ResonanceAudioBuildProcessor.cs" />
     <Compile Include="Assets\Externals\ResonanceAudio\Editor\ResonanceAudioListenerEditor.cs" />
