@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MovieDirector.cs">
     <Files>
-      <File FileName="Assets/Scripts/MovieDirector.cs" Line="21" Column="5" />
+      <File FileName="Assets/Scripts/MovieDirector.cs" Line="15" Column="5" />
+      <File FileName="Assets/Scripts/TimelineController.cs" Line="35" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
