@@ -15,6 +15,8 @@ public class MovieDirector : MonoBehaviour {
 
     public double startTime;
 
+    public double endTime;
+
     private VideoPlayer videoPlayer;
 
     private TimelineAsset timelineController;
@@ -39,4 +41,15 @@ public class MovieDirector : MonoBehaviour {
     {
 		
 	}
+
+    void FixedUpdate()
+    {
+        foreach (PlayableDirector playableDirector in playableDirectors)
+        {
+            if (playableDirector.time >= endTime) {
+                videoPlayer.Stop();
+                playableDirector.Stop();
+            }
+        }
+    }
 }
