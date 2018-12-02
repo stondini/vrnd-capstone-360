@@ -179,6 +179,7 @@
     <Compile Include="Assets\Externals\ResonanceAudio\Scripts\ResonanceAudioRoomManager.cs" />
     <Compile Include="Assets\Externals\ResonanceAudio\Scripts\ResonanceAudioSource.cs" />
     <Compile Include="Assets\Scripts\MovieDirector.cs" />
+    <Compile Include="Assets\Scripts\RoundingAudioSource.cs" />
     <Compile Include="Assets\Scripts\TimelineController.cs" />
     <None Include="Assets\Externals\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
     <None Include="Assets\Externals\LightningBolt\Readme.txt" />

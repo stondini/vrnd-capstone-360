@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
 
 public class MovieDirector : MonoBehaviour {
 
@@ -24,6 +25,8 @@ public class MovieDirector : MonoBehaviour {
     // Use this for initialization
     void Start ()
     {
+     //   SceneManager.LoadScene("OutsideScene", LoadSceneMode.Single);
+
         videoPlayer = videoObject.GetComponent<VideoPlayer>();
        // timelineController = timelineObject.GetComponent<TimelineAsset>();
 
@@ -49,6 +52,8 @@ public class MovieDirector : MonoBehaviour {
             if (playableDirector.time >= endTime) {
                 videoPlayer.Stop();
                 playableDirector.Stop();
+
+                SceneManager.LoadScene("DarkRoomScene", LoadSceneMode.Single);
             }
         }
     }
