@@ -25,13 +25,10 @@ public class MovieDirector : MonoBehaviour {
     // Use this for initialization
     void Start ()
     {
-     //   SceneManager.LoadScene("OutsideScene", LoadSceneMode.Single);
-
         videoPlayer = videoObject.GetComponent<VideoPlayer>();
-       // timelineController = timelineObject.GetComponent<TimelineAsset>();
-
         videoPlayer.time = startTime;
         videoPlayer.Play();
+
         foreach (PlayableDirector playableDirector in playableDirectors)
         {
             playableDirector.time = startTime;
@@ -52,8 +49,12 @@ public class MovieDirector : MonoBehaviour {
             if (playableDirector.time >= endTime) {
                 videoPlayer.Stop();
                 playableDirector.Stop();
+            }
 
-                SceneManager.LoadScene("DarkRoomScene", LoadSceneMode.Single);
+            if (playableDirector.state != PlayState.Playing) {
+                Debug.Log("Outside Scene ended, loading Inside Scene.");
+                SceneManager.UnloadSceneAsync("OutsideScene");
+                SceneManager.LoadScene("InsideScene", LoadSceneMode.Single);
             }
         }
     }

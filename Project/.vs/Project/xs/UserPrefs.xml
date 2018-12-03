@@ -1,11 +1,9 @@
 ﻿<Properties StartupConfiguration="{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../vrnd-a-maze/Assets/UdacityVR/Scripts/Coin.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/Scripts/MovieDirector.cs" Line="50" Column="36" />
       <File FileName="Assets/Scripts/TimelineController.cs" Line="35" Column="6" />
-      <File FileName="Assets/Materials/FlipNormals.shader" Line="43" Column="19" />
-      <File FileName="Assets/Scripts/RoundingAudioSource.cs" Line="7" Column="24" />
-      <File FileName="../../vrnd-a-maze/Assets/UdacityVR/Scripts/Coin.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MovieDirector.cs" Line="57" Column="35" />
+      <File FileName="Assets/Scripts/MenuContrioller.cs" Line="19" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

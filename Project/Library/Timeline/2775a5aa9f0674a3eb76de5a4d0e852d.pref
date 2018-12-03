@@ -12,20 +12,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeInFrames: 0
-  timeAreaShownRange: {x: 127.51137, y: 312.64053}
+  timeAreaShownRange: {x: 93.19507, y: 138.96094}
   showAudioWaveform: 1
   trackHeight: 30
   trackScale: 1
   playRangeEnabled: 0
   timeAreaPlayRange: {x: 3.4028235e+38, y: 3.4028235e+38}
-  windowTime: 210.3
+  windowTime: 135.05
   verticalScroll: 0
   m_Keys:
   - {fileID: 114658020320657062, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114109956023065984, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114959816088498178, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114133591431522790, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
-  - {fileID: 114460575333705260, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114833579093913012, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114164491003704046, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114446554846054654, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
@@ -42,6 +41,7 @@ MonoBehaviour:
   - {fileID: 114043124526702904, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114485251100396858, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114669183325669998, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
+  - {fileID: 114506758195191166, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   m_Vals:
   - collapsed: 0
     showInlineCurves: 0
@@ -49,7 +49,13 @@ MonoBehaviour:
   - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
-  - collapsed: 1
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
   - collapsed: 0
@@ -61,16 +67,7 @@ MonoBehaviour:
   - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
-  - collapsed: 1
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
   - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 1
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
   - collapsed: 0
@@ -82,7 +79,10 @@ MonoBehaviour:
   - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
-  - collapsed: 1
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
   - collapsed: 0
