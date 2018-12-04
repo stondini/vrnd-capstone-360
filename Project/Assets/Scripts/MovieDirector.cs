@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
+
+using IBM.Watson.DeveloperCloud.Utilities;
 
 public class MovieDirector : MonoBehaviour {
 
@@ -21,6 +24,7 @@ public class MovieDirector : MonoBehaviour {
     private VideoPlayer videoPlayer;
 
     private TimelineAsset timelineController;
+
 
     // Use this for initialization
     void Start ()

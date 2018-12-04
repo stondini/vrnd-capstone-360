@@ -81,6 +81,12 @@
     <Compile Include="Assets\Externals\ResonanceAudio\Editor\ResonanceAudioReverbProbeEditor.cs" />
     <Compile Include="Assets\Externals\ResonanceAudio\Editor\ResonanceAudioRoomEditor.cs" />
     <Compile Include="Assets\Externals\ResonanceAudio\Editor\ResonanceAudioSourceEditor.cs" />
+    <Compile Include="Assets\Externals\Watson\Scripts\Editor\IBMCloudSignup.cs" />
+    <Compile Include="Assets\Externals\Watson\Scripts\Editor\WatsonMenu.cs" />
+    <Compile Include="Assets\Externals\Watson\ThirdParty\FullSerializer\Aot\Editor\fsAotConfigurationEditor.cs" />
+    <Compile Include="Assets\Externals\Watson\ThirdParty\FullSerializer\Editor\AotHelpers.cs" />
+    <None Include="Assets\Externals\Watson\Scripts\Editor\Help\Working\SHFBContent.xml" />
+    <None Include="Assets\Externals\Watson\Scripts\Editor\Help\Working\StopWordList.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/sto/Courses/UdacityVR/vrnd-capstone-360/Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -338,6 +344,9 @@
     </Reference>
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
       <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>/Users/sto/Courses/UdacityVR/vrnd-capstone-360/Project/Assets/Externals/Watson/Plugins/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Google.ProtocolBuffers">
       <HintPath>/Users/sto/Courses/UdacityVR/vrnd-capstone-360/Project/Assets/Externals/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
