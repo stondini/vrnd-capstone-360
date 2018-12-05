@@ -25,22 +25,23 @@ using IBM.Watson.DeveloperCloud.Connection;
 
 public class Dialog : MonoBehaviour
 {
-    private string _serviceUrl = "https://stream-fra.watsonplatform.net/text-to-speech/api";
-    private string _iamApikey = "jxtxMp9xdTRDOe5WxoITlk0RgVdCmpsESVDUABSvBjtJ";
+    private static string _serviceUrl = "https://stream-fra.watsonplatform.net/text-to-speech/api";
+    private static string _iamApikey = "jxtxMp9xdTRDOe5WxoITlk0RgVdCmpsESVDUABSvBjtJ";
 
-    private static TextToSpeech _service;
+    private static TextToSpeech _service = null;
+    private static bool loaded = false;
 
     public bool alice;
 
     public string text;
 
-    private bool done;
+    private bool played;
 
     private bool _synthesizeTested;
 
     void Start()
     {
-        done = false;
+        played = false;
         if (_service == null)
         {
             LogSystem.InstallDefaultReactors();
@@ -50,29 +51,41 @@ public class Dialog : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!done && (_service != null)) {
-            done = true;
+        if (gameObject.activeInHierarchy && !played && (_service != null)) {
+            played = true;
+            // Debug.Log("FixedUpdate");
             Runnable.Run(Speech());
         }
     }
 
     private IEnumerator CreateService()
     {
-        //  Create credential and instantiate service
-        Credentials credentials = null;
+        Debug.Log("Loading Watson Service");
+
         //  Authenticate using iamApikey
         TokenOptions tokenOptions = new TokenOptions()
         {
             IamApiKey = _iamApikey,
+            IamUrl = null
         };
 
-        credentials = new Credentials(tokenOptions, _serviceUrl);
-
+        //  Create credential and instantiate service
+        Credentials credentials = new Credentials(tokenOptions, _serviceUrl);
         //  Wait for tokendata
-        while (!credentials.HasIamTokenData()) 
-            yield return null;
+        while (!credentials.HasIamTokenData())
+            yield return WaitForInit();
 
         _service = new TextToSpeech(credentials);
+
+        if (loaded)
+        {
+            Debug.Log("Watson Service Loaded : _service=" + (_service == null ? "null" : _service.ToString()));
+        }
+    }
+
+    public IEnumerator WaitForInit() {
+        yield return new WaitForSeconds(3.0f);
+        loaded = (_service != null);
     }
    
     public IEnumerator Speech()

@@ -12,14 +12,18 @@ public class MenuContrioller : MonoBehaviour {
 
     public Scrollbar creditScrollBar;
 
+    private static bool title = true;
+
     // Use this for initialization
     void Start () {
-        titlePanel.SetActive(true);
-        creditPanel.SetActive(false);
+        titlePanel.SetActive(title);
+        creditPanel.SetActive(!title);
+        title = !title;
+        creditScrollBar.value = 0.0f;
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
 

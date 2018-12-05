@@ -15,23 +15,23 @@ public class MovieDirector : MonoBehaviour {
 
     public List<PlayableDirector> playableDirectors;
 
-    public List<TimelineAsset> timelines;
-
     public double startTime;
 
     public double endTime;
 
+    public string nextSceneName;
+
     private VideoPlayer videoPlayer;
-
-    private TimelineAsset timelineController;
-
 
     // Use this for initialization
     void Start ()
     {
-        videoPlayer = videoObject.GetComponent<VideoPlayer>();
-        videoPlayer.time = startTime;
-        videoPlayer.Play();
+        if (videoObject != null)
+        {
+            videoPlayer = videoObject.GetComponent<VideoPlayer>();
+            videoPlayer.time = startTime;
+            videoPlayer.Play();
+        }
 
         foreach (PlayableDirector playableDirector in playableDirectors)
         {
@@ -51,14 +51,18 @@ public class MovieDirector : MonoBehaviour {
         foreach (PlayableDirector playableDirector in playableDirectors)
         {
             if (playableDirector.time >= endTime) {
-                videoPlayer.Stop();
+                if (videoPlayer != null)
+                {
+                    videoPlayer.Stop();
+                }
                 playableDirector.Stop();
             }
 
             if (playableDirector.state != PlayState.Playing) {
-                Debug.Log("Outside Scene ended, loading Inside Scene.");
-                SceneManager.UnloadSceneAsync("OutsideScene");
-                SceneManager.LoadScene("InsideScene", LoadSceneMode.Single);
+                Debug.Log("Unloading scene : " + SceneManager.GetActiveScene().name);
+                SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
+                Debug.Log("Loading scene : " + nextSceneName);
+                SceneManager.LoadScene(nextSceneName, LoadSceneMode.Single);
             }
         }
     }

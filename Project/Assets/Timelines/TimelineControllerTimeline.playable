@@ -250,7 +250,7 @@ MonoBehaviour:
     m_DisplayName: Active
     m_Version: 1
   m_Version: 1
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
 --- !u!114 &114068514839827264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -358,7 +358,7 @@ MonoBehaviour:
     m_DisplayName: Active
     m_Version: 1
   m_Version: 1
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
 --- !u!114 &114107918238885458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -866,7 +866,7 @@ MonoBehaviour:
     m_DisplayName: Active
     m_Version: 1
   m_Version: 1
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
 --- !u!114 &114204315196571862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -998,7 +998,6 @@ MonoBehaviour:
   - {fileID: 114509862458002876}
   - {fileID: 114359543736921312}
   - {fileID: 114349340699247472}
-  - {fileID: 114539896089078156}
   m_Clips: []
   m_Version: 1
 --- !u!114 &114238187481354014
@@ -1089,7 +1088,7 @@ MonoBehaviour:
     m_DisplayName: Active
     m_Version: 1
   m_Version: 1
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
 --- !u!114 &114244632678694450
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1289,7 +1288,7 @@ MonoBehaviour:
     m_DisplayName: Active
     m_Version: 1
   m_Version: 1
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
 --- !u!114 &114286496525455452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1419,7 +1418,7 @@ MonoBehaviour:
     m_DisplayName: Active
     m_Version: 1
   m_Version: 1
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
 --- !u!114 &114354739574267048
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1609,7 +1608,7 @@ MonoBehaviour:
     m_DisplayName: Active
     m_Version: 1
   m_Version: 1
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
 --- !u!114 &114384829589264320
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1698,7 +1697,7 @@ MonoBehaviour:
     m_DisplayName: Active
     m_Version: 1
   m_Version: 1
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
 --- !u!114 &114398958763617780
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2137,7 +2136,7 @@ MonoBehaviour:
     m_DisplayName: Active
     m_Version: 1
   m_Version: 1
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
 --- !u!114 &114516517709773282
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2160,95 +2159,6 @@ MonoBehaviour:
   m_Script: {fileID: 442072544, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
   m_Name: ActivationPlayableAsset
   m_EditorClassIdentifier: 
---- !u!114 &114539896089078156
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 46519060, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
-  m_Name: Activation Track (12)
-  m_EditorClassIdentifier: 
-  m_Locked: 0
-  m_Muted: 0
-  m_CustomPlayableFullTypename: 
-  m_AnimClip: {fileID: 0}
-  m_Parent: {fileID: 114210039353909714}
-  m_Children: []
-  m_Clips:
-  - m_Start: 130
-    m_ClipIn: 0
-    m_Asset: {fileID: 114705773667075408}
-    m_Duration: 5
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114539896089078156}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Active
-    m_Version: 1
-  m_Version: 1
-  m_PostPlaybackState: 3
 --- !u!114 &114567001601299496
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2515,19 +2425,8 @@ MonoBehaviour:
     m_DisplayName: Active
     m_Version: 1
   m_Version: 1
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
 --- !u!114 &114693484900788100
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 442072544, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
-  m_Name: ActivationPlayableAsset
-  m_EditorClassIdentifier: 
---- !u!114 &114705773667075408
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2811,7 +2710,7 @@ MonoBehaviour:
     m_DisplayName: Active
     m_Version: 1
   m_Version: 1
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
 --- !u!114 &114812939307876016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2914,7 +2813,7 @@ MonoBehaviour:
     m_DisplayName: Active
     m_Version: 1
   m_Version: 1
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
 --- !u!114 &114828735172295534
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3344,4 +3243,4 @@ MonoBehaviour:
     m_DisplayName: Active
     m_Version: 1
   m_Version: 1
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
