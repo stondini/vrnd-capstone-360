@@ -19290,7 +19290,7 @@ MonoBehaviour:
   videoObject: {fileID: 371154498}
   playableDirectors:
   - {fileID: 1332712924}
-  startTime: 100
+  startTime: 0
   endTime: 135
   nextSceneName: InsideScene
 --- !u!4 &253280939
@@ -24499,7 +24499,7 @@ MonoBehaviour:
   directivitySharpness: 1
   listenerDirectivityAlpha: 0
   listenerDirectivitySharpness: 1
-  gainDb: 9
+  gainDb: 10
   nearFieldEffectEnabled: 0
   nearFieldEffectGain: 1
   occlusionEnabled: 0
@@ -44564,7 +44564,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1202659085}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 97602bea1f1d84a27893415e599e1c30, type: 2}
   m_CullingMode: 0
@@ -49624,7 +49624,7 @@ PlayableDirector:
     value: {fileID: 128207823}
   - key: {fileID: 114446775277128554, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
     value: {fileID: 513988070}
-  - key: {fileID: 114204315196571862, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 1202659086}
   - key: {fileID: 114955780894877222, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
     value: {fileID: 224868751}
@@ -49672,6 +49672,8 @@ PlayableDirector:
     value: {fileID: 1661053072}
   - key: {fileID: 0}
     value: {fileID: 0}
+  - key: {fileID: 114469821592483560, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
+    value: {fileID: 594551142}
   m_ExposedReferences:
     m_References:
     - af7b2259fb0fd4ebe916f813a1806122: {fileID: 936647346}
@@ -73576,15 +73578,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 435742, guid: 7b6986082795faa4db8104022a586c9a, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 435742, guid: 7b6986082795faa4db8104022a586c9a, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 435742, guid: 7b6986082795faa4db8104022a586c9a, type: 2}
       propertyPath: m_LocalScale.z
-      value: 0
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 435742, guid: 7b6986082795faa4db8104022a586c9a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
