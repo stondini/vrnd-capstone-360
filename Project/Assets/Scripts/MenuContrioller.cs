@@ -12,10 +12,13 @@ public class MenuContrioller : MonoBehaviour {
 
     public Scrollbar creditScrollBar;
 
+    public GameObject welcome;
+
     private static bool title = true;
 
     // Use this for initialization
     void Start () {
+        welcome.SetActive(title);
         titlePanel.SetActive(title);
         creditPanel.SetActive(!title);
         title = !title;

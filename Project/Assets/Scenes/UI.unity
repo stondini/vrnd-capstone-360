@@ -890,7 +890,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.75
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 1
   SpatializePostEffects: 0
@@ -1557,7 +1557,6 @@ GameObject:
   - component: {fileID: 936647347}
   - component: {fileID: 936647348}
   - component: {fileID: 936647351}
-  - component: {fileID: 936647349}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1597,26 +1596,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!320 &936647349
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 936647346}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: f814f5b036fed45b28b30181fce9c6b4, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 0}
-    value: {fileID: 936647348}
-  - key: {fileID: 114927747420206912, guid: f814f5b036fed45b28b30181fce9c6b4, type: 2}
-    value: {fileID: 1854234086}
-  m_ExposedReferences:
-    m_References: []
 --- !u!114 &936647351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1631,6 +1610,7 @@ MonoBehaviour:
   titlePanel: {fileID: 4061418}
   creditPanel: {fileID: 590101232}
   creditScrollBar: {fileID: 1863529852}
+  welcome: {fileID: 1854234086}
 --- !u!1 &944158392
 GameObject:
   m_ObjectHideFlags: 0
@@ -2381,7 +2361,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1854234087
 MonoBehaviour:
   m_ObjectHideFlags: 0

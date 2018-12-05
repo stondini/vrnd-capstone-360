@@ -240,7 +240,7 @@ Shader "DLNK/Standar/Basic/BasicIBLRefract" {
             #pragma vertex vert
             #pragma fragment frag
             #define UNITY_PASS_FORWARDADD
-            #include "UnityCG.cginc"
+//            #include "UnityCG.cginc"
             #include "AutoLight.cginc"
             #include "Lighting.cginc"
             #pragma multi_compile_fwdadd
