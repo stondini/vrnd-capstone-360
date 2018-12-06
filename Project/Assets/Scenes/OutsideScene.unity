@@ -19290,7 +19290,7 @@ MonoBehaviour:
   videoObject: {fileID: 371154498}
   playableDirectors:
   - {fileID: 1332712924}
-  startTime: 105
+  startTime: 0
   endTime: 135
   nextSceneName: InsideScene
 --- !u!4 &253280939
