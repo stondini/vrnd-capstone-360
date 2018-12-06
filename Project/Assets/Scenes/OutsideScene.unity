@@ -19477,7 +19477,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 371154498}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 9cd17b036b9904bbc95a69821e080210, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: a2b7dc5b87f9d4106b20b56b15fb1fc5, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 534669904}
@@ -19661,7 +19661,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 30
+  MaxDistance: 50
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -29263,7 +29263,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -33921,8 +33921,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 594551142}
-  m_LocalRotation: {x: 0, y: 0.17364816, z: 0, w: 0.9848078}
-  m_LocalPosition: {x: 0, y: -16, z: -75.9}
+  m_LocalRotation: {x: -0.01805319, y: 0.25818723, z: -0.067375824, w: 0.9635736}
+  m_LocalPosition: {x: 834.88464, y: 199.9671, z: -329.96198}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 462622145}
@@ -34014,8 +34014,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 611537997}
-  m_LocalRotation: {x: 0, y: 0.96051013, z: 0, w: 0.27824524}
-  m_LocalPosition: {x: -126.65825, y: -0.040000916, z: -147.33588}
+  m_LocalRotation: {x: -0.007201819, y: 0.40686873, z: -0.06938328, w: 0.9108194}
+  m_LocalPosition: {x: 834.88324, y: 199.97548, z: -329.99356}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 128207820}
@@ -34103,18 +34103,18 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 248799cb4acba48f7b3ee842a80f788c,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: ba3013a5f53c843cebc24441857de35b, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: 89b3fc57318d046f4bce2c0ed8c6b557, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 0.75
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 1
   SpatializePostEffects: 1
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 30
+  MaxDistance: 50
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -34638,7 +34638,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &825403435
 Transform:
   m_ObjectHideFlags: 0
@@ -44195,18 +44195,18 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 248799cb4acba48f7b3ee842a80f788c,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: ba3013a5f53c843cebc24441857de35b, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: 89b3fc57318d046f4bce2c0ed8c6b557, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 0.75
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 1
   SpatializePostEffects: 1
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 30
+  MaxDistance: 50
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -49620,13 +49620,13 @@ PlayableDirector:
     value: {fileID: 224868751}
   - key: {fileID: 0}
     value: {fileID: 0}
-  - key: {fileID: 114729196507915950, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 128207823}
-  - key: {fileID: 114446775277128554, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 513988070}
   - key: {fileID: 0}
     value: {fileID: 1202659086}
-  - key: {fileID: 114955780894877222, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 224868751}
   - key: {fileID: 114890509433574960, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
     value: {fileID: 953016381}
@@ -49674,6 +49674,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 114469821592483560, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
     value: {fileID: 594551142}
+  - key: {fileID: 114925415903961482, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
+    value: {fileID: 1945295149}
   m_ExposedReferences:
     m_References:
     - af7b2259fb0fd4ebe916f813a1806122: {fileID: 936647346}
@@ -96820,8 +96822,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1909361482}
-  m_LocalRotation: {x: 0.15801103, y: 0.97862417, z: 0.020982072, w: 0.12995018}
-  m_LocalPosition: {x: -104.01759, y: -0.040000916, z: -148.69617}
+  m_LocalRotation: {x: 0.019255865, y: 0.71777046, z: -0.06704574, w: 0.6927767}
+  m_LocalPosition: {x: 834.92096, y: 199.9834, z: -329.952}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 513988067}
@@ -101519,7 +101521,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1945295151
 Transform:
   m_ObjectHideFlags: 0

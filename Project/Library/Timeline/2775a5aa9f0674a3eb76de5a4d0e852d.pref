@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeInFrames: 0
-  timeAreaShownRange: {x: 3.6459172, y: 144.7927}
+  timeAreaShownRange: {x: -0.000000009018034, y: 154.40176}
   showAudioWaveform: 1
   trackHeight: 30
   trackScale: 1
   playRangeEnabled: 0
   timeAreaPlayRange: {x: 3.4028235e+38, y: 3.4028235e+38}
-  windowTime: 134.33333333333334
-  verticalScroll: 77.00535
+  windowTime: 108.01666666666667
+  verticalScroll: 119.48663
   m_Keys:
   - {fileID: 114658020320657062, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114109956023065984, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
@@ -29,11 +29,7 @@ MonoBehaviour:
   - {fileID: 114164491003704046, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114446554846054654, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114354739574267048, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
-  - {fileID: 114114790092408918, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
-  - {fileID: 114729196507915950, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
-  - {fileID: 114446775277128554, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114628850563932484, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
-  - {fileID: 114955780894877222, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114890509433574960, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114258322327242790, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114733397095128102, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
@@ -56,6 +52,7 @@ MonoBehaviour:
   - {fileID: 114359543736921312, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114349340699247472, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   - {fileID: 114469821592483560, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
+  - {fileID: 114925415903961482, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
   m_Vals:
   - collapsed: 0
     showInlineCurves: 0
@@ -96,31 +93,22 @@ MonoBehaviour:
   - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
-  - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
   - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
   - collapsed: 0

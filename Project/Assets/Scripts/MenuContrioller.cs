@@ -14,14 +14,20 @@ public class MenuContrioller : MonoBehaviour {
 
     public GameObject welcome;
 
-    private static bool title = true;
+    private static int panelIndex = 1;
 
     // Use this for initialization
     void Start () {
-        welcome.SetActive(title);
-        titlePanel.SetActive(title);
-        creditPanel.SetActive(!title);
-        title = !title;
+        // Welcome and title
+        welcome.SetActive(panelIndex == 1);
+        titlePanel.SetActive(panelIndex == 1);
+
+        // Alternative scenario
+
+        // Credit
+        creditPanel.SetActive(panelIndex == 2);
+
+        panelIndex++;
         creditScrollBar.value = 0.0f;
     }
 
