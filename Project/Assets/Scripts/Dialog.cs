@@ -26,7 +26,7 @@ using IBM.Watson.DeveloperCloud.Connection;
 public class Dialog : MonoBehaviour
 {
     private static string _serviceUrl = "https://stream-fra.watsonplatform.net/text-to-speech/api";
-    private static string _iamApikey = "jxtxMp9xdTRDOe5WxoITlk0RgVdCmpsESVDUABSvBjtJ";
+    private static string _iamApikey = "-jxtxMp9xdTRDOe5WxoITlk0RgVdCmpsESVDUABSvBjtJ";
 
     private static TextToSpeech _service = null;
     private static bool loaded = false;
