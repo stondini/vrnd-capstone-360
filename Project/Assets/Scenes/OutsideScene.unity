@@ -19103,7 +19103,7 @@ MonoBehaviour:
   videoObject: {fileID: 371154498}
   playableDirectors:
   - {fileID: 1332712924}
-  startTime: 105
+  startTime: 125
   endTime: 135
   nextSceneName: InsideScene
 --- !u!4 &253280939
@@ -19267,68 +19267,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 463285ecd6702471a909ba810832bf0e, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &336222607
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 336222609}
-  - component: {fileID: 336222608}
-  m_Layer: 0
-  m_Name: Video360-alt
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!328 &336222608
-VideoPlayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 336222607}
-  m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 9cd17b036b9904bbc95a69821e080210, type: 3}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 534669904}
-  m_TargetTexture: {fileID: 8400000, guid: cca18f4eb554c4baebeb36647d335f87, type: 2}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 2
-  m_AspectRatio: 2
-  m_DataSource: 0
-  m_PlaybackSpeed: 1
-  m_AudioOutputMode: 0
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
-  m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 01
-  m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 0
-  m_SkipOnDrop: 1
-  m_Looping: 0
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
---- !u!4 &336222609
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 336222607}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &371154498
 GameObject:
   m_ObjectHideFlags: 0
@@ -29485,7 +29423,7 @@ Transform:
   - {fileID: 429182126}
   - {fileID: 1661053073}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &723127002
 GameObject:
@@ -39806,7 +39744,7 @@ PlayableDirector:
   - key: {fileID: 114610074739476908, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
     value: {fileID: 371154498}
   - key: {fileID: 114293462897400478, guid: 2775a5aa9f0674a3eb76de5a4d0e852d, type: 2}
-    value: {fileID: 336222607}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - af7b2259fb0fd4ebe916f813a1806122: {fileID: 936647346}
