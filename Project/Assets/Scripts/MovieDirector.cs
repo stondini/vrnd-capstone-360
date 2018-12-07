@@ -19,7 +19,9 @@ public class MovieDirector : MonoBehaviour {
 
     public double endTime;
 
-    public string nextSceneName;
+    // public string nextSceneName;
+
+    public int uiPanelIndex;
 
     private VideoPlayer videoPlayer;
 
@@ -61,8 +63,15 @@ public class MovieDirector : MonoBehaviour {
             if (playableDirector.state != PlayState.Playing) {
                 Debug.Log("Unloading scene : " + SceneManager.GetActiveScene().name);
                 SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
-                Debug.Log("Loading scene : " + nextSceneName);
-                SceneManager.LoadScene(nextSceneName, LoadSceneMode.Single);
+                if (uiPanelIndex > 0)
+                {
+                    MenuContrioller.LoadUI(uiPanelIndex);
+                }
+                else
+                {
+                    //Debug.Log("Loading scene : " + nextSceneName);
+                    //SceneManager.LoadScene(nextSceneName, LoadSceneMode.Single);
+                }
             }
         }
     }

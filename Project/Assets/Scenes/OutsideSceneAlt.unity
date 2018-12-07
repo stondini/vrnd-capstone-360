@@ -18915,7 +18915,8 @@ MonoBehaviour:
   - {fileID: 1332712924}
   startTime: 0
   endTime: 22
-  nextSceneName: UI
+  nextSceneName: 
+  uiPanelIndex: 3
 --- !u!4 &253280939
 Transform:
   m_ObjectHideFlags: 0
