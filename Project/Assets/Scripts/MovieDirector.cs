@@ -60,9 +60,9 @@ public class MovieDirector : MonoBehaviour {
 
             if (playableDirector.state != PlayState.Playing) {
                 Debug.Log("Unloading scene : " + SceneManager.GetActiveScene().name);
-                SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
+                //SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
                 Debug.Log("Loading scene : " + nextSceneName);
-                SceneManager.LoadScene(nextSceneName, LoadSceneMode.Single);
+                //SceneManager.LoadScene(nextSceneName, LoadSceneMode.Single);
             }
         }
     }
