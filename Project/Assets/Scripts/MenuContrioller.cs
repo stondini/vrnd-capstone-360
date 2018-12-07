@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class MenuContrioller : MonoBehaviour {
+public class MenuContrioller : MonoBehaviour
+{
 
     public GameObject titlePanel;
 
@@ -18,23 +19,24 @@ public class MenuContrioller : MonoBehaviour {
 
     public GameObject altScenario;
 
-    private static MenuContrioller ctrl;
+    static MenuContrioller() {
+        MenuChoice.menuChoice.SetMenuIdx(1);
+    }
 
     // Use this for initialization
-    void Start () {
-        if (ctrl == null) {
-            ctrl = this;
-        }
+    void Start()
+    {
+        int menuIdx = MenuChoice.menuChoice.GetMenuIdx();
         // Welcome and title
-        welcome.SetActive(true);
-        titlePanel.SetActive(true);
+        welcome.SetActive(menuIdx == 1);
+        titlePanel.SetActive(menuIdx == 1);
 
         // Alternative scenario
-        altScenario.SetActive(false);
-        altPanel.SetActive(false);
+        altScenario.SetActive(menuIdx == 2);
+        altPanel.SetActive(menuIdx == 2);
 
         // Credits
-        creditPanel.SetActive(false);
+        creditPanel.SetActive(menuIdx == 3);
         creditScrollBar.value = 0.0f;
     }
 
@@ -54,27 +56,6 @@ public class MenuContrioller : MonoBehaviour {
 
             creditScrollBar.value = creditScrollBar.value + (0.1f * Time.deltaTime);
         }
-    }
-
-    // 1 = Title
-    // 2 = Alternative Storyline
-    // 3 = End/Credits
-    public static void LoadUI(int index) {
-        Debug.Log("Unloading scene : " + SceneManager.GetActiveScene().name);
-        SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
-        SceneManager.LoadScene("UI", LoadSceneMode.Single);
-
-        // Welcome and title
-        ctrl.welcome.SetActive(index == 1);
-        ctrl.titlePanel.SetActive(index == 1);
-
-        // Alternative scenario
-        ctrl.altScenario.SetActive(index == 2);
-        ctrl.altPanel.SetActive(index == 2);
-
-        // Credits
-        ctrl.creditPanel.SetActive(index == 3);
-        ctrl.creditScrollBar.value = 0.0f;
     }
 
     public void OnStart() {

@@ -473,6 +473,7 @@
     <Compile Include="Assets\Externals\Watson\ThirdParty\MiniJSON\MiniJSON.cs" />
     <Compile Include="Assets\Externals\Watson\Travis\TravisIntegrationTests.cs" />
     <Compile Include="Assets\Scripts\Dialog.cs" />
+    <Compile Include="Assets\Scripts\MenuChoice.cs" />
     <Compile Include="Assets\Scripts\MenuContrioller.cs" />
     <Compile Include="Assets\Scripts\MovieDirector.cs" />
     <Compile Include="Assets\Scripts\RoundingAudioSource.cs" />

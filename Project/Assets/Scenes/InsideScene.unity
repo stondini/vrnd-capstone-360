@@ -1300,7 +1300,6 @@ MonoBehaviour:
   - {fileID: 461137695}
   startTime: 0
   endTime: 27
-  nextSceneName: 
   uiPanelIndex: 3
 --- !u!4 &1005552081
 Transform:
@@ -1638,7 +1637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alice: 0
-  text: Alice !
+  text: Alice
 --- !u!1001 &1285962551
 Prefab:
   m_ObjectHideFlags: 0
@@ -2135,7 +2134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alice: 0
-  text: Are you there ?
+  text: Are-you there ?
 --- !u!1 &1979904704
 GameObject:
   m_ObjectHideFlags: 0

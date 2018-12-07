@@ -19103,9 +19103,8 @@ MonoBehaviour:
   videoObject: {fileID: 371154498}
   playableDirectors:
   - {fileID: 1332712924}
-  startTime: 105
+  startTime: 90
   endTime: 135
-  nextSceneName: 
   uiPanelIndex: 2
 --- !u!4 &253280939
 Transform:

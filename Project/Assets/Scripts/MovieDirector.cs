@@ -19,8 +19,6 @@ public class MovieDirector : MonoBehaviour {
 
     public double endTime;
 
-    // public string nextSceneName;
-
     public int uiPanelIndex;
 
     private VideoPlayer videoPlayer;
@@ -65,12 +63,8 @@ public class MovieDirector : MonoBehaviour {
                 SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
                 if (uiPanelIndex > 0)
                 {
-                    MenuContrioller.LoadUI(uiPanelIndex);
-                }
-                else
-                {
-                    //Debug.Log("Loading scene : " + nextSceneName);
-                    //SceneManager.LoadScene(nextSceneName, LoadSceneMode.Single);
+                    MenuChoice.menuChoice.SetMenuIdx(uiPanelIndex);
+                    SceneManager.LoadScene("UI", LoadSceneMode.Single);
                 }
             }
         }
