@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeInFrames: 0
-  timeAreaShownRange: {x: -0.37759, y: 39.344875}
+  timeAreaShownRange: {x: -0.9503689, y: 99.028435}
   showAudioWaveform: 1
   trackHeight: 30
   trackScale: 1
   playRangeEnabled: 0
   timeAreaPlayRange: {x: 3.4028235e+38, y: 3.4028235e+38}
-  windowTime: 0
+  windowTime: 18.799999237060547
   verticalScroll: 0
   m_Keys:
   - {fileID: 114658020320657062, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
@@ -26,16 +26,15 @@ MonoBehaviour:
   - {fileID: 114999517324942088, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
   - {fileID: 114610074739476908, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
   - {fileID: 114164491003704046, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
+  - {fileID: 114109956023065984, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
+  - {fileID: 114041165123563394, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
   - {fileID: 114485251100396858, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
-  - {fileID: 114469821592483560, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
   - {fileID: 114043124526702904, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
   - {fileID: 114669183325669998, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
   - {fileID: 114506758195191166, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
   - {fileID: 114628850563932484, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
-  - {fileID: 114925415903961482, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
   - {fileID: 114446554846054654, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
   - {fileID: 114354739574267048, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
-  - {fileID: 114109956023065984, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
   m_Vals:
   - collapsed: 0
     showInlineCurves: 0
@@ -43,6 +42,12 @@ MonoBehaviour:
   - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
   - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
@@ -52,33 +57,24 @@ MonoBehaviour:
   - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
-  - collapsed: 1
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 1
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 1
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 1
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 1
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 1
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 1
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 1
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 1
+  - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
   - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100

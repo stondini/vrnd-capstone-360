@@ -28756,7 +28756,7 @@ Animator:
   m_GameObject: {fileID: 594551142}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 102eee5a04eac47819409cd7787ba387, type: 2}
+  m_Controller: {fileID: 9100000, guid: af75a16a3737b499fac6cec2f52e8c9e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -28787,7 +28787,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 611537997}
-  m_LocalRotation: {x: 0.043973126, y: 0.91193515, z: -0.0005161465, w: -0.40797102}
+  m_LocalRotation: {x: 0.04397313, y: 0.9119352, z: -0.00051614654, w: -0.40797105}
   m_LocalPosition: {x: -140.40915, y: 23, z: 38.546383}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -33864,29 +33864,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &1202659085 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 112958, guid: 7b6986082795faa4db8104022a586c9a,
-    type: 2}
-  m_PrefabInternal: {fileID: 1794391420}
---- !u!95 &1202659086
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1202659085}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 97602bea1f1d84a27893415e599e1c30, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1285962551
 Prefab:
   m_ObjectHideFlags: 0
@@ -38654,7 +38631,7 @@ PlayableDirector:
   - key: {fileID: 0}
     value: {fileID: 513988070}
   - key: {fileID: 0}
-    value: {fileID: 1202659086}
+    value: {fileID: 0}
   - key: {fileID: 0}
     value: {fileID: 0}
   - key: {fileID: 0}
@@ -38724,17 +38701,17 @@ PlayableDirector:
   - key: {fileID: 114469821592483560, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
     value: {fileID: 0}
   - key: {fileID: 114043124526702904, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 594551144}
   - key: {fileID: 114669183325669998, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 514052468}
   - key: {fileID: 114506758195191166, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 114925415903961482, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
+    value: {fileID: 947564284}
+  - key: {fileID: 0}
     value: {fileID: 0}
   - key: {fileID: 114446554846054654, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 611537999}
   - key: {fileID: 114354739574267048, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 1909361484}
   - key: {fileID: 114798320517882288, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
     value: {fileID: 0}
   - key: {fileID: 114238187481354014, guid: 343482ca74b1a4f23877b1dcde33826f, type: 2}
