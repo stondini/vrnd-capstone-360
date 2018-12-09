@@ -53,7 +53,6 @@ public class Dialog : MonoBehaviour
     {
         if (gameObject.activeInHierarchy && !played && (_service != null)) {
             played = true;
-            // Debug.Log("FixedUpdate");
             Runnable.Run(Speech());
         }
     }
