@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MenuChoice.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Dialog.cs">
     <Files>
-      <File FileName="Assets/Scripts/MovieDirector.cs" Line="22" Column="8" />
-      <File FileName="Assets/Scripts/MenuContrioller.cs" Line="6" Column="1" />
-      <File FileName="Assets/Scripts/Dialog.cs" Line="29" Column="41" />
-      <File FileName="Assets/Scripts/MenuChoice.cs" Line="5" Column="24" />
+      <File FileName="Assets/Scripts/MovieDirector.cs" Line="67" Column="1" />
+      <File FileName="Assets/Scripts/MenuContrioller.cs" Line="30" Column="29" />
+      <File FileName="Assets/Scripts/Dialog.cs" Line="55" Column="27" />
+      <File FileName="Assets/Scripts/MenuChoice.cs" Line="15" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
